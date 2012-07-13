@@ -12,6 +12,15 @@
         android:text="@string/hello_world"
         tools:context=".MainActivity" />
     
+  <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <requestFocus />
+ 
+    </EditText>
+    
     <Button
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
