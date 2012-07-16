@@ -10,16 +10,19 @@ import android.widget.Toast;
  
 
 public class MainActivity extends Activity {
+	public static int editText;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        addKeyListener();
+       // addKeyListener();
     }
+}
 
-    public void addKeyListener() {
+ /***   public void addKeyListener() {
+    	
     	 
     	// get edittext component
     final EditText edittext = (EditText) findViewById(R.id.editText);
@@ -53,4 +56,4 @@ public class MainActivity extends Activity {
 
     
 }
-}
+} **/
